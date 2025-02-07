@@ -1,0 +1,14 @@
+
+services:
+  db:
+    image: postgres:16.3
+    # profiles:
+    #   - cms-build
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: thisuser
+      POSTGRES_PASSWORD: nVnuBCSU1bw9Zf4HpBwPemaT
+      POSTGRES_DB: component-delete-error
+    ports:
+      - 5436:5432
