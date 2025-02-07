@@ -16,6 +16,9 @@ If you component have a short form text input field and you press enter in that 
 4. From ./component-delete run `yarn develop`
 5. Open the browser and navigate to (localhost)[http://localhost:1337/admin/content-manager/collection-types/api::repeatable-quote.repeatable-quote/tmlmollog0zctov16ne4noxh]
 
+Credentials (for the demo setup in this repo):
+- Username: me@example.com
+- Password: 112TestMe!
 
 ### Reproduce the issue
 
